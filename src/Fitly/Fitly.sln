@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitly.Web", "Fitly.Web\Fitly.Web.csproj", "{102EA936-2B1D-4ADF-92BF-E93B2C97959D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitly.Common", "Fitly.Common\Fitly.Common.csproj", "{AF3AB1B5-1EED-466C-AB56-D803C907F3D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{B72CEE94-70D1-4A8E-A988-FD8BF7F3AE7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitly.WebTest", "Test\Fitly.WebTest\Fitly.WebTest.csproj", "{98845004-B28B-4413-9979-2280C5569607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitly.UnitTest", "Test\Fitly.UnitTest\Fitly.UnitTest\Fitly.UnitTest.csproj", "{56B6A59C-2DB9-400D-8960-82981814F415}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{190B7CFB-A48B-46A4-9971-0EE8F1FAF153}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.gitignore = ..\..\.gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{102EA936-2B1D-4ADF-92BF-E93B2C97959D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102EA936-2B1D-4ADF-92BF-E93B2C97959D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102EA936-2B1D-4ADF-92BF-E93B2C97959D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102EA936-2B1D-4ADF-92BF-E93B2C97959D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3AB1B5-1EED-466C-AB56-D803C907F3D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3AB1B5-1EED-466C-AB56-D803C907F3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3AB1B5-1EED-466C-AB56-D803C907F3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3AB1B5-1EED-466C-AB56-D803C907F3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98845004-B28B-4413-9979-2280C5569607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98845004-B28B-4413-9979-2280C5569607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98845004-B28B-4413-9979-2280C5569607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98845004-B28B-4413-9979-2280C5569607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B6A59C-2DB9-400D-8960-82981814F415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B6A59C-2DB9-400D-8960-82981814F415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B6A59C-2DB9-400D-8960-82981814F415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B6A59C-2DB9-400D-8960-82981814F415}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98845004-B28B-4413-9979-2280C5569607} = {B72CEE94-70D1-4A8E-A988-FD8BF7F3AE7B}
+		{56B6A59C-2DB9-400D-8960-82981814F415} = {B72CEE94-70D1-4A8E-A988-FD8BF7F3AE7B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41E6033B-DB8E-4B74-AF2F-A1644F293257}
+	EndGlobalSection
+EndGlobal
