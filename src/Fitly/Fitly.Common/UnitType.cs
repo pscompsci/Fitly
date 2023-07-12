@@ -1,5 +1,5 @@
 ﻿namespace Fitly.Common;
-public enum MeasurementStyle
+public enum UnitType
 {
     Imperial,
     Metric

@@ -1,5 +1,5 @@
 ﻿namespace Fitly.Common;
-public enum Sexes
+public enum SexType
 {
     Female,
     Male
